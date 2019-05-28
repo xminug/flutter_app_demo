@@ -141,3 +141,10 @@ flutter run --local-engine=XXXX
 ~~~
 
 ### 在现有App中指定engine引擎
+可以修改App的对应的flutter模块下的`Generated.xcconfig`配置文件，里面加入一些环境变量的设置
+
+~~~
+FLUTTER_ENGINE=/path/to/engine/floder
+LOCAL_ENGINE=ios_debug_sim_unopt ### and any mode else
+
+~~~
