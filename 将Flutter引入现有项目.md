@@ -119,8 +119,3 @@ flutter attach --debug-uri http://127.0.0.1:xxxxx/xxxxxxxx/
 关于attach可接收的更多命令，可以查看 /⁨flutter/packages⁩/flutter_tools⁩/lib⁩/src⁩/command/attach.dart 文件进行查看，还有 --debug-port app-id pid-file project-root 等不同命令组合。
 
 在flutter attach连接上后，可以尝试修改 main.dart 的入口文件里面的内容，然后查看机器上的flutter页面是否发生改变。
-
-## Flutter初始化项目
-
-## 如何将Flutter引入现有项目
-
